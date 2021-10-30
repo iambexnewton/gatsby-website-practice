@@ -3,9 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { header, btn } from "../styles/home.module.css"
 
-export default function Home({ data }) {
-  console.log(data)
-
+export default function Home() {
   return (
     <Layout>
       <section className={header}>
