@@ -5,6 +5,7 @@ import { header, btn } from "../styles/home.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function Home({ data }) {
+  console.log(data)
   return (
     <Layout>
       <section className={header}>
