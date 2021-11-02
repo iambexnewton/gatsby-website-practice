@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import { header, btn } from "../styles/home.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-export default function Home() {
+export default function Home({ data }) {
   return (
     <Layout>
       <section className={header}>
@@ -16,7 +16,7 @@ export default function Home() {
             My Portfolio Projects
           </Link>
         </div>
-        <Gatsbyimage image={getImage(data.file)} alt="Banner" />
+        <GatsbyImage image={getImage(data.file)} alt="Banner" />
       </section>
     </Layout>
   )
