@@ -27,9 +27,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "Web Warrior",
+    title: "Rebecca Newton",
     description: "web dev portfolio",
-    copyright: "This website is made by me 2021",
+    copyright: "Made by me, 2021",
     contact: "iambexnewton@gmail.com",
   },
 }
