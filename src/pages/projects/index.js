@@ -5,7 +5,7 @@ import { portfolio, projectstyle } from "../../styles/projects.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function Projects({ data }) {
-  console.log(data)
+  // console.log(data)
   const projects = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
 
@@ -16,7 +16,7 @@ export default function Projects({ data }) {
         <h3>Projects & Websites I've created</h3>
         <div className={projectstyle}>
           {projects.map(project => (
-            <Link to={"/projects" + project.frontmatter.slug} key={project.id}>
+            <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
               <div>
                 <GatsbyImage
                   image={getImage(project.frontmatter.thumb)}

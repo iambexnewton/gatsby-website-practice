@@ -5,7 +5,8 @@ import { header, btn } from "../styles/home.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function Home({ data }) {
-  console.log(data)
+  // console.log(data)
+
   return (
     <Layout>
       <section className={header}>
@@ -13,7 +14,7 @@ export default function Home({ data }) {
           <h2>Design</h2>
           <h3>Develop & Depoly</h3>
           <p>UX designer & Web developer based in Denmark</p>
-          <Link className={btn} to="/projects">
+          <Link className={btn} to="/projects/">
             My Portfolio Projects
           </Link>
         </div>
