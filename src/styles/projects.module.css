@@ -8,6 +8,7 @@
 .portfolio > h3 {
   font-size: 2em;
   font-weight: 400;
+  color: #d42990;
 }
 
 .projectstyle {
@@ -22,6 +23,6 @@
   font-weight: 500;
 }
 .projectstyle p {
-  color: #ccc;
+  color: rgb(141, 128, 128);
   margin-top: 4px;
 }
